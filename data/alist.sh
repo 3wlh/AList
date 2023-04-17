@@ -58,6 +58,7 @@ curl --connect-timeout 30 -m 600 -#kLO /www/luci-static/argon/background/Yamato_
 	echo -e "\r\n${GREEN_COLOR}安装 <AList数据> 完成${RES}\r\n"
 )
 
+ls
 Check
 if [ $? -eq 0 ]; then
 	Install
