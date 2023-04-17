@@ -4,7 +4,8 @@ GREEN_COLOR='\e[1;32m' #绿色
 RES='\e[0m' #尾
 
 #初始化目录
-dir="/etc/alist" && cd $dir || exit 1
+dir="/etc/alist" 
+cd $dir || exit 1
 
 #设置GitHub加速下载
 ip_info=$(curl -sk https://ip.cooluc.com)
