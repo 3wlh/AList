@@ -2,6 +2,22 @@
 .notify-render .hope-close-button{
 	display: none;
 }
+
+/*去掉底部管理*/
+/*
+.footer span,.footer a:nth-of-type(2){
+  display:none;
+}
+*/
+/*去掉底部Alist*/
+.footer span,.footer a:nth-of-type(1){
+  display:none;
+}
+/*去掉底部Alist和管理文字*/
+/*
+type="text/css"> .footer { 
+display: none !important; } 
+./*
         /* 
             樱花：https://www.dmoe.cc
             夏沫：https://cdn.seovx.com
@@ -61,6 +77,9 @@ background-color: rgba(255, 255, 255, 0.5) !important;
 *{font-family:LXGW WenKai}
 *{font-weight:bold}
 body {font-family: LXGW WenKai;}
+
+
+
 
 /*较为个性化的鼠标指针样式，可结合个人需要自行修改*/
 body {
