@@ -9,7 +9,7 @@ let interval = setInterval(() => {
 <!-- 下面的几行都是渐变的一套,自定义头部内还有一个关联的自定义CSS -->
 <!--<canvas id="canvas-basic"></canvas> -->
 var granimInstance = new Granim({
-    element: '#canvas-basic',
+    element: 'canvas-basic',
     direction: 'left-right',
     isPausedWhenNotInView: true,
     states : {
