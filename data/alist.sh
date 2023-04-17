@@ -59,6 +59,6 @@ Install() (
 )
 
 Check
-	if [ $? -eq 0 ]; then
+if [ $? -eq 0 ]; then
 	Install
-	fi
+fi
