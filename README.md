@@ -15,3 +15,7 @@
 ```txt
 <script src="http://3wking.github.io/AList/diy_script.js"></script>
 ```
+##### <!--引入<img>图片-->
+```txt
+https://raw.iqiq.io/3wking/AList/main/IMG/img_11.jpg
+```
