@@ -5,12 +5,12 @@
 
 /*去掉底部Alist*/
 .footer span,.footer a:nth-of-type(1){
-	color:Blue;
+	color:Red;
 	#display:none;
 }
 /*去掉底部管理*/
 .footer span,.footer a:nth-of-type(2){
-	color:Blue;
+	color:Red;
 	#display:none;
 }
 /*去掉底部Alist和管理文字*//*
@@ -31,12 +31,14 @@ type="text/css"> .footer {
         */
 /*白天背景图*/
 .hope-ui-light{
-  background-image: url("https://raw.iqiq.io/3wking/AList/main/IMG/img_8.jpg") !important;
-  background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position-x:center;
+	#https://raw.iqiq.io/3wking/AList/main/IMG/img_8.jpg
+	background-image: url("https://3wking.github.io/AList/IMG/img_8.jpg") !important;
+	background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position-x:center;
 }
 /*夜间背景图*/
 .hope-ui-dark {
-    background-image: url("https://raw.iqiq.io/3wking/AList/main/IMG/img_6.png") !important;
+	#https://raw.iqiq.io/3wking/AList/main/IMG/img_6.jpg
+    background-image: url("https://3wking.github.io/AList/IMG/img_6.png") !important;
     background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position-x:center;
 }
 /*主列表夜间模式透明，50%这数值是控制透明度大小的*/
