@@ -1,11 +1,11 @@
 # AList_美化 
 ##### <!--引入<head_style>-->
 ```txt
-<link rel="stylesheet" type="text/css" href="http://3wking.github.io/AList/head_style.css">
+<link rel="stylesheet" type="text/css" href="http://3wking.github.io/AList/style.css">
 ```
 ##### <!--引入<head_script>-->
 ```txt
-<script src="http://3wking.github.io/AList/head_script.js"></script>
+<script src="http://3wking.github.io/AList/script.js"></script>
 ```
 ##### <!--引入<diy_style>-->
 ```txt
