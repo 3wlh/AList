@@ -9,11 +9,11 @@
 ```
 ##### <!--引入<diy_style>-->
 ```txt
-<link rel="stylesheet" type="text/css" href="http://3wking.github.io/AList/diy_style.css">
+<link rel="stylesheet" type="text/css" href="http://3wking.github.io/AList/style_diy.css">
 ```
 ##### <!--引入<diy_script>-->
 ```txt
-<script src="http://3wking.github.io/AList/diy_script.js"></script>
+<script src="http://3wking.github.io/AList/script_diy.js"></script>
 ```
 ##### <!--引入<img>图片-->
 ```txt
