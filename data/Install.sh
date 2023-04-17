@@ -14,7 +14,11 @@ Check() (
 ）
 Install() (
 echo -e "\r\n${GREEN_COLOR}安装<argon_img>图片${RES}\r\n"
-img="https://raw.iqiq.io/3wking/3wking.github.io/main/OpenWrt/IMG/Yamato_Kancolle.mp4"
+data_db="https://raw.iqiq.io/3wking/3wking.github.io/main/OpenWrt/data/data.db"
+data_db_opkg=""
+data_db_shm=""
+data_db_wal=""
+
 rm -f /www/luci-static/argon/background/*
 if [ $? -eq 0 ]; then
 	echo -e "${GREEN_COLOR}正在下载 $img ...${RES}"
@@ -22,7 +26,13 @@ if [ $? -eq 0 ]; then
 	if [ $? --ne 0 ]; then
 		echo -e "${RED_COLOR}下载 $img 失败.${RES}\r\n"
 		exit 1
-	fi	
+	fi
+	
+	
+	
+	
+	
+		
 	echo -e "\r\n${GREEN_COLOR}安装<argon_img>完成${RES}\r\n"
 else
 	echo -e "${RED_COLOR}删除原文件失败.${RES}\r\n"
