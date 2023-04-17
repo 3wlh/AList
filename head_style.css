@@ -134,9 +134,9 @@ background-color:rgb(0 0 0 / 80%) !important;
 	height: 350px!important;
 	width: 350px!important;
 }
-#waifu-tips {
+waifu-tips {
 	top: -60px;
-	/*display:none !important;隐藏对话框*/
+	display:none !important;
 }
 /*较为个性化的鼠标指针样式，可结合个人需要自行修改*/
 body {
