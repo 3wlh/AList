@@ -76,9 +76,9 @@ dibu {
 
 
 /*去掉底部*/
-.footer {
+/*.footer {
     display: none !important;
-}
+}*/
 
 /*全局字体*/
 *{font-family:LXGW WenKai}
@@ -118,7 +118,7 @@ background-color:rgb(0 0 0 / 80%) !important;
 
 
 /*渐变背景CSS*/
-#canvas-basic {
+canvas-basic {
 	position: fixed;
 	display: block;
 	width: 100%;
@@ -128,15 +128,6 @@ background-color:rgb(0 0 0 / 80%) !important;
 	bottom: 0;
 	left: 0;
 	z-index: -999;
-}
-<!--看板娘 -自定义大小，隐藏对话框和对话框高度-->
-#waifu #live2d {
-	height: 350px!important;
-	width: 350px!important;
-}
-waifu-tips {
-	top: -60px;
-	display:none !important;
 }
 /*较为个性化的鼠标指针样式，可结合个人需要自行修改*/
 body {
