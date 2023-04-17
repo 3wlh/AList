@@ -3,6 +3,9 @@ RED_COLOR='\e[1;31m' #红色
 GREEN_COLOR='\e[1;32m' #绿色
 RES='\e[0m' #尾
 
+#初始化目录
+dir="/etc/alist" && cd $dir || exit 1
+
 #设置GitHub加速下载
 ip_info=$(curl -sk https://ip.cooluc.com)
 country_code=$(echo $ip_info | sed -r 's/.*country_code":"([^"]*).*/\1/')
@@ -56,7 +59,6 @@ curl --connect-timeout 30 -m 600 -#kLO /www/luci-static/argon/background/Yamato_
 )
 
 Check
-dir="/etc/alist" && cd $dir || exit 1
 if [ $? -eq 0 ]; then
 	Install
 fi
