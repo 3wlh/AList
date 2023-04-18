@@ -33,14 +33,14 @@ type="text/css"> .footer {
 
 .hope-ui-light{
 
-	/*https://raw.iqiq.io/3wking/AList/main/IMG/img_8.jpg*/
+	/*https://raw.iqiq.io/3wking/AList/main/IMG/img_08.jpg*/
 	background-image: url("http://3wking.github.io/AList/img/img_17.jpg") !important;
 	background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position-x:center;
 }
 /*夜间背景图*/
 .hope-ui-dark {
-	/*https://raw.iqiq.io/3wking/AList/main/IMG/img_6.jpg*/
-    background-image: url("http://3wking.github.io/AList/img/img_6.jpg") !important;
+	/*https://raw.iqiq.io/3wking/AList/main/IMG/img_06.jpg*/
+    background-image: url("http://3wking.github.io/AList/img/img_06.jpg") !important;
     background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position-x:center;
 }
 /*主列表夜间模式透明，50%这数值是控制透明度大小的*/
