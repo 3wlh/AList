@@ -26,19 +26,12 @@ Check() (
 Download()  (
 	echo -e "\r\n${GREEN_COLOR}安装 <AList> 数据${RES}\r\n"
 	data_db="https://raw.githubusercontent.com/3wking/AList/main/data/data.db"
-	data_db_opkg="https://raw.githubusercontent.com/3wking/AList/main/data/data.db-opkg"
 	data_db_shm="https://raw.githubusercontent.com/3wking/AList/main/data/data.db-shm"
 	data_db_wal="https://raw.githubusercontent.com/3wking/AList/main/data/data.db-wal"
 	echo -e "${GREEN_COLOR}正在下载 $data_db ...${RES}"
 	curl --connect-timeout 30 -m 600 -#kLO $mirror$data_db
 	if [ $? -ne 0 ]; then
 		echo -e "${RED_COLOR}下载 $data_db失败.${RES}\r\n"
-		exit 1
-	fi
-	echo -e "${GREEN_COLOR}正在下载 $data_db_opkg ...${RES}"
-	curl --connect-timeout 30 -m 600 -#kLO $mirror$data_db_opkg
-	if [ $? -ne 0 ]; then
-		echo -e "${RED_COLOR}下载 $data_db_opkg 失败.${RES}\r\n"
 		exit 1
 	fi	
 	echo -e "${GREEN_COLOR}正在下载 $data_db_shm ...${RES}"
