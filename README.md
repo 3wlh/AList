@@ -1,4 +1,23 @@
-# AList_美化 
+# AList
+## AList_安装
+#### Docker
+###### 稳定版
+```sh
+docker run -d --restart=always -v /etc/alist:/opt/alist/data -p 5244:5244 -e PUID=0 -e PGID=0 -e UMASK=022 --name="alist" xhofe/alist:latest
+```
+###### 测试版（不推荐）
+```sh
+docker run -d --restart=always -v /etc/alist:/opt/alist/data -p 5244:5244 -e PUID=0 -e PGID=0 -e UMASK=022 --name="alist" xhofe/alist:main
+```
+###### 初始密码
+```sh
+docker exec -it alist ./alist admin
+```
+###### 验证码识别
+```sh
+docker run -d --restart=always -p 9898:9898 --name="ddddocr_server" xhofe/ddddocr_server:main
+```
+## AList_美化
 ##### 引入<head_style>
 ```txt
 <link rel="stylesheet" type="text/css" href="http://3wking.github.io/AList/style.css">
