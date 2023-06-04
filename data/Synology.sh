@@ -7,7 +7,7 @@ RES='\e[0m' #尾
 for ((i = 1; i <= 16; i++)) 
 do
 if [ -d "/volume${i}/docker/alist" ];then
-dir="/volume${i}/alist"
+dir="/volume${i}/docker/alist"
 break;
 fi
 done
