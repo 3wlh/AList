@@ -60,7 +60,7 @@ function Download()  (
 )
 
 #初始目录
-if [$dir != ""]; then
+if [ "$dir" != "" ]; then
 echo "目录:"$dir && cd $dir || exit 1
 Check
 if [ $? -eq 0 ]; then
