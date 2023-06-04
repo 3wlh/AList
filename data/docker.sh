@@ -14,7 +14,7 @@ if [ $country_code = "CN" ]; then
 fi
 
 # 检查
-Check() (
+function Check() (
 	echo -e "\r\n${GREEN_COLOR}正在检查可用空间 ...${RES}"
 	ROOT_SPACE=$(df -m /opt | awk 'END{print $4}')
 	if [ $ROOT_SPACE -lt 20 ]; then
@@ -23,7 +23,7 @@ Check() (
 	fi
 )
 #下载
-Download()  (
+function Download()  (
 	echo -e "\r\n${GREEN_COLOR}安装 <AList> 数据${RES}\r\n"
 	data_db="https://raw.githubusercontent.com/3wking/AList/main/data/data.db"
 	data_db_shm="https://raw.githubusercontent.com/3wking/AList/main/data/data.db-shm"
