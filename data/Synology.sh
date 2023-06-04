@@ -6,7 +6,7 @@ RES='\e[0m' #尾
 # 查找目录
 for ((i = 1; i <= 16; i++)) 
 do
-if [ -d "/volume${i}/alist" ];then
+if [ -d "/volume${i}/docker/alist" ];then
 dir="/volume${i}/alist"
 break;
 fi
@@ -60,8 +60,10 @@ function Download()  (
 )
 
 #初始目录
+if [$dir != ""]; then
 echo "目录:"$dir && cd $dir || exit 1
 Check
 if [ $? -eq 0 ]; then
 	Download
+fi
 fi
