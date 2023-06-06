@@ -33,13 +33,13 @@ type="text/css"> .footer {
 
 .hope-ui-light{
 
-	/*https://raw.iqiq.io/3wking/AList/main/IMG/img_08.jpg*/
+	/*https://raw.iqiq.io/3wking/AList/main/img/img_17.jpg*/
 	background-image: url("https://cdn.jsdelivr.net/gh/3wking/AList@main/img/img_17.jpg") !important;
 	background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position-x:center;
 }
 /*夜间背景图*/
 .hope-ui-dark {
-	/*https://raw.iqiq.io/3wking/AList/main/IMG/img_06.jpg*/
+	/*https://raw.iqiq.io/3wking/AList/main/img/img_06.jpg*/
     background-image: url("https://cdn.jsdelivr.net/gh/3wking/AList@main/img/img_06.jpg") !important;
     background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position-x:center;
 }
