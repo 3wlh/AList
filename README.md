@@ -20,19 +20,19 @@ docker run -d --restart=always -p 9898:9898 --name="ddddocr_server" xhofe/ddddoc
 ## AList_美化
 ##### 引入<head_style>
 ```txt
-<link rel="stylesheet" type="text/css" href="http://3wking.github.io/AList/style.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/3wking/AList@main/style.css">
 ```
 ##### 引入<head_script
 ```txt
-<script src="http://3wking.github.io/AList/script.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/3wking/AList@main/script.js"></script>
 ```
 ##### 引入<diy_style>
 ```txt
-<link rel="stylesheet" type="text/css" href="http://3wking.github.io/AList/style_diy.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/3wking/AList@main/style_diy.css">
 ```
 ##### 引入<diy_script>
 ```txt
-<script src="http://3wking.github.io/AList/script_diy.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/3wking/AList@main/script_diy.js"></script>
 ```
 ##### 引入<img>图片
 ```txt
