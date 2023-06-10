@@ -1,4 +1,3 @@
-{
       "key": "customize_head",
       "value": "<script src=\"https://polyfill.io/v3/polyfill.min.js?features=String.prototype.replaceAll\"></script>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"http://3wking.github.io/AList/style.css\">\n<script src=\"http://3wking.github.io/AList/script.js\"></script>\n\n",
       "help": "",
@@ -6,4 +5,3 @@
       "options": "",
       "group": 4,
       "flag": 1
-    }
