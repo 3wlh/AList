@@ -1,7 +1,7 @@
 {
 	"site_title": "3wking",
 	"customize_head": "<script src=\\"https://polyfill.io/v3/polyfill.min.js?features=String.prototype.replaceAll\\"></script>\\n<link rel=\\"stylesheet\\" type=\\"text/css\\" href=\\"http://3wking.github.io/AList/style.css\\">\\n<script src=\\"http://3wking.github.io/AList/script.js\\"></script>",
-	"customize_body": "<link rel=\\"stylesheet\\" type=\\"text/css\\" href=\\"http://3wking.github.io/AList/style_diy.css\\">\\n<script src=\\"http://3wking.github.io/AList/script_diy.js\\"></script>",
+	"customize_body": "<link rel=\"stylesheet\" type=\"text/css\" href=\"http://3wking.github.io/AList/style_diy.css\">\\n<script src=\"http://3wking.github.io/AList/script_diy.js\"></script>",
 	"ocr_api": "http://172.17.0.2:9898/ocr/file/json",
 	"guest": "/云盘分享"
 }
