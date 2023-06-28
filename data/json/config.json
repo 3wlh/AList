@@ -1,5 +1,6 @@
 {
 	"site_title": "3wking",
-	"ocr_api": "http://172.17.0.2:9898/ocr/file/json",
+	"ocr_api": "https://api-cf.nn.ci/ocr/file/json",
 	"guest": "/云盘分享"
+	"standby": "http://172.17.0.2:8989/ocr/file/json",
 }
