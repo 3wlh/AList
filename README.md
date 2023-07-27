@@ -22,20 +22,14 @@ docker exec -it alist ./alist admin
 docker run -d --restart=always -p 9898:9898 --name="ddddocr_server" xhofe/ddddocr_server:main
 ```
 ## AList_美化
-##### 引入<head_style>
+##### 自定义头部
 ```txt
 <link rel="stylesheet" type="text/css" href="http://127.0.0.1/alist_data/style.css">
-```
-##### 引入<head_script
-```txt
 <script src="http://127.0.0.1/alist_data/script.js"></script>
 ```
-##### 引入<diy_style>
+##### 自定义内容
 ```txt
 <link rel="stylesheet" type="text/css" href="http://127.0.0.1/alist_data/style_diy.css">
-```
-##### 引入<diy_script>
-```txt
 <script src="http://127.0.0.1/alist_data/script_diy.js"></script>
 ```
 ##### 引入<img>图片
