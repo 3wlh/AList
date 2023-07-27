@@ -1,13 +1,17 @@
 # AList
 ## AList_安装
 #### Docker
+###### 拉取
+```sh
+docker pull xhofe/alist
+```
 ###### 稳定版
 ```sh
-docker run -d --restart=always -v /etc/alist:/opt/alist/data -p 5244:5244 -e PUID=0 -e PGID=0 -e UMASK=022 --name="alist" xhofe/alist:latest
+docker run -d --restart=always -v /etc/alist:/opt/alist/data -p 5244:5244 -e PUID=0 -e PGID=0 -e UMASK=022 --name="xhofe/alist" xhofe/alist:latest
 ```
 ###### 测试版（不推荐）
 ```sh
-docker run -d --restart=always -v /etc/alist:/opt/alist/data -p 5244:5244 -e PUID=0 -e PGID=0 -e UMASK=022 --name="alist" xhofe/alist:main
+docker run -d --restart=always -v /etc/alist:/opt/alist/data -p 5244:5244 -e PUID=0 -e PGID=0 -e UMASK=022 --name="xhofe/alist" xhofe/alist:main
 ```
 ###### 初始密码
 ```sh
