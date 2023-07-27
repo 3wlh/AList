@@ -36,3 +36,7 @@ docker run -d --restart=always -p 9898:9898 --name="ddddocr_server" xhofe/ddddoc
 ```txt
 https://ghproxy.net/https://raw.githubusercontent.com/3wking/AList/main/IMG/img_11.jpg
 ```
+#### data
+```txt
+https://ghproxy.net/https://raw.githubusercontent.com/3wking/AList/main/data/json/key_alist.json
+```
