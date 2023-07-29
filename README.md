@@ -40,3 +40,4 @@ https://ghproxy.net/https://raw.githubusercontent.com/3wking/AList/main/IMG/img_
 ```txt
 https://ghproxy.net/https://raw.githubusercontent.com/3wking/AList/main/data/json/key_alist.json
 ```
+好
